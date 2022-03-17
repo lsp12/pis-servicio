@@ -37,6 +37,7 @@ export class UsersService {
     return await this.usersRepository.update(id, {
       username: updateUserDto.username,
       password: updateUserDto.password,
+      email: updateUserDto.email,
     });
   }
 

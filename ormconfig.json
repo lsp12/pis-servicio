@@ -1,13 +1,13 @@
 {
     "name": "default",
     "type": "mysql",
-    "host": "localhost",
+    "host": "192.168.1.20",
     "port": 3306, 
-    "username": "root", 
+    "username": "tvx", 
     "password": "",
-    "database": "magitv",
-    "synchronize": true,
-    "logging": false,
+    "database": "xtream_iptvpro",
+    "synchronize": false,
+    "logging": true,
     "entities": [
         "src/entity/**/*.ts"
     ],
